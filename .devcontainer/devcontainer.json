@@ -1,0 +1,5 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {},
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y llvm-19 clang-19 lldb-19 lld-19"
+}
